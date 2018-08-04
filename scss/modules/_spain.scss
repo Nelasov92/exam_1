@@ -1,0 +1,40 @@
+.spain {
+	@include size(100%);
+	background: url('../images/bg_block3.png') no-repeat top center, url('../images/bg_block4.png') no-repeat bottom center;
+
+	&__block {
+		background: rgba(0, 0, 0, .8);
+		margin-top: 230px;
+		padding: 30px 50px;
+
+		&-text {
+			font: 300 20px Josefin Sans, sans-serif;
+			color: #FFF;
+			margin-bottom: 30px;
+
+			&--doun {
+				font-size: 16px;
+			}
+		}
+
+		&-title {
+			font: 300 20px Josefin Sans, sans-serif;
+			text-transform: uppercase;
+			color: #FFF;
+			padding-bottom: 30px;
+
+		}
+
+		&--doun {
+			margin-top: 400px;
+			margin-bottom: 100px;
+		}
+	}
+	&__button {
+		font: 400 16px Aleo, sans-serif;
+		color: #fff;
+		background-color: #5474FD;
+		padding: 20px 40px;
+		text-transform: uppercase;
+	}
+}

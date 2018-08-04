@@ -1,0 +1,28 @@
+.iconki {
+	background-color: #333333;
+
+	&__img {
+		font-size: 60px;
+		margin-top: 100px;
+		padding-bottom: 30px;
+		text-align: center;
+
+		&--blue{
+			color: #5474fd;
+		}
+
+		&--rose {
+			color: #FF6363;
+		}
+
+		&--red {
+			color: #00A2FF;
+		}
+
+		&-text {
+			font: 400 36px Aleo, sans-serif;
+			color: #FFF;
+			margin-bottom: 120px;
+		}
+	}
+}

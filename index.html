@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Start Template">
+	<meta name="author" content="NElasov">
+	<title>Travel More</title>
+
+	<link rel="icon" href="images/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.min.css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="header__title col-4 offset-4">
+					<h1 class="header__title-h1">Bhromaon</h1>
+					<p class="header__title-text">Safe Travel Anywhere</p>
+				</div>
+				<div class="header__search col-8 offset-2">
+					<form class="form">
+						<input type="text" name="Name" class="form__search" id="mainname" placeholder="Search Your Travel Destination">
+						<button type="submit" class="form__button">
+						Search
+						<img src="icons/search.svg" class="form__button-icon">
+						</button>
+					</form>
+				</div>
+				<div class="header__icon col-2 offset-5 icon-down">
+					<p class="header__icon-text">Scroll Down</p>
+				</div>
+			</div>
+		</div>
+		<div id="menu-wrapper">
+			<menu class="header__menu">
+				<h1 class="header__menu-title">Bhromaon</h1>
+				<ul>
+					<li class="header__menu-li">
+						<a href="#">Who We Are</a>
+					</li>
+					<li class="header__menu-li">
+						<a href="#about">What We Do</a>
+					</li>
+					<li class="header__menu-li">
+						<a href="#skills">Travel With Us</a>
+					</li>
+					<li class="header__menu-li">
+						<a href="#works">Contact Us</a>
+					</li>
+				</ul>
+			</menu>
+		</div>
+	</header>
+	<main class="main">
+		<section  class="why">
+			<div class="container">
+				<div class="row">
+					<div class="why__left col-6">
+						<h1 class="why__left-title">Why Choose Us</h1>
+						<p class="why__left-text">Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee</p>
+						<p class="why__left-text">Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that.</p>
+						<button type="submit" class="why__left-button col-5">Explore Places</button>
+					</div>
+					<div class="why__right col-6">
+						<div class="row ">
+							<div class="col-8 offset-2 why__right-foto">
+								<img src="images/foto1.png">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-8 offset-4">
+								<img src="images/foto2.png">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="iconki">
+			<div class="container">
+				<div class="row">
+					<div class="col-3 offset-1 iconki__img iconki__img--blue">
+						<i class="icon-search"></i>
+						<p class="iconki__img-text">Search Places</p>
+					</div>
+					<div class="col-3 offset-1 iconki__img iconki__img--rose">
+						<i class="icon-check"></i>
+						<p class="iconki__img-text">Select Places</p>
+					</div>
+					<div class="col-3 offset-1 iconki__img iconki__img--red">
+						<i class="icon-like"></i>
+						<p class="iconki__img-text">Book & Enjoy</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="spain">
+			<div class="container">
+				<div class="row">
+					<div class="col-6 spain__block spain__block--up">
+						<p class="spain__block-text">Spain </p>
+						<h1 class="spain__block-title">Grand Spain Madrid</h1>
+						<p class="spain__block-text spain__block-text--doun">But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system</p>
+						<button type="submit" class="spain__button">Book Now</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6 offset-6 spain__block spain__block--doun">
+						<p class="spain__block-text">Spain </p>
+						<h1 class="spain__block-title">Grand Spain Madrid</h1>
+						<p class="spain__block-text spain__block-text--doun">But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system</p>
+						<button type="submit" class="spain__button">Book Now</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="touris">
+			<div class="container">
+				<div class="row">
+					<h1 class="touris__title col-5 offset-4">What Our  Tourist Say</h1>
+					<div class="row">
+						<div class="touris__foto col-5">
+							<img src="images/foto_footer.png">
+						</div>
+						<div class="touris__text col-7">
+							<h1 class="touris__text-title">Sam Sumon</h1>
+							<p class="touris__text-text">But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain  But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system was account  born and I account will give you a nai the complete account of the system</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<script>
+		// When the user scrolls the page, execute myFunction
+		window.onscroll = function() {myFunction()};
+
+		// Get the header
+		var header = document.getElementById("menu-wrapper");
+
+		// Get the offset position of the navbar
+		var sticky = header.offsetTop;
+
+		// Add the fixed class to the header when you reach its scroll position. Remove "fixed" when you leave the scroll position
+		function myFunction() {
+		  if (window.pageYOffset > sticky) {
+		    header.classList.add("fixed");
+		  } else {
+		    header.classList.remove("fixed");
+		  }
+		}
+	</script>
+
+<!-- LiveReload Script -->
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

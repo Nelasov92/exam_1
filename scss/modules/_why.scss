@@ -1,0 +1,38 @@
+.why {
+	@include size(100%);
+	background: url('../images/bg_block2.png') no-repeat;
+
+	&__left {
+		margin-top: 200px;
+
+		&-title {
+			font: 400 36px Aleo, sans-serif;
+			color: #FFF;
+			margin-bottom: 70px;
+		}
+
+		&-text {
+			font: 300 16px Josefin Sans, sans-serif;
+			color: #FFF;
+			margin-bottom: 50px;
+		}
+
+		&-button {
+			font: 400 16px Aleo, sans-serif;
+			color: #fff;
+			background-color: #5474FD;
+			padding: 20px 40px;
+			text-transform: uppercase;
+			margin-bottom: 130px;
+		}
+	}
+
+	&__right {
+		margin-top: 120px;
+
+		&-foto {
+			margin-bottom: 10px;
+		}
+	}
+
+}
